@@ -1,0 +1,108 @@
+** Drc report for C:/Users/kylew/OneDrive/Documents/Github/Lifting-Body/Forerunner-Cubic/Forerunner-Cubic-Mainboard/Forerunner-Cubic-Mainboard.kicad_pcb **
+** Created on 2024-01-21 17:44:31 **
+
+** Found 22 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.1270 mm; actual 0.1001 mm)
+    Rule: board setup constraints hole; Severity: error (excluded)
+    @(6.5000 mm, -16.4500 mm): Pad A1/B12 [GND] of J1 on F.Cu
+    @(5.5000 mm, -16.1400 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.1270 mm; actual 0.1001 mm)
+    Rule: board setup constraints hole; Severity: error (excluded)
+    @(6.5000 mm, -10.0500 mm): Pad A12/B1 [GND] of J1 on F.Cu
+    @(5.5000 mm, -10.3600 mm): NPTH pad of J1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error (excluded)
+    @(13.0000 mm, -5.8000 mm): Footprint U5
+    @(10.5000 mm, -1.1000 mm): Footprint C13
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(50.0000 mm, -48.0000 mm): Line on Edge.Cuts
+    @(50.0000 mm, -8.9250 mm): Circle on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(50.0000 mm, -48.0000 mm): Line on Edge.Cuts
+    @(46.0000 mm, -4.0000 mm): Circle on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(50.0000 mm, -48.0000 mm): Line on Edge.Cuts
+    @(46.0000 mm, -4.0000 mm): Circle on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(0.0000 mm, -2.0000 mm): Line on Edge.Cuts
+    @(4.0000 mm, -4.0000 mm): Circle on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(0.0000 mm, -2.0000 mm): Line on Edge.Cuts
+    @(4.0000 mm, -4.0000 mm): Circle on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(0.0000 mm, -2.0000 mm): Line on Edge.Cuts
+    @(0.5000 mm, -17.7500 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(0.0000 mm, -2.0000 mm): Line on Edge.Cuts
+    @(0.5000 mm, -8.7500 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(2.0000 mm, -50.0000 mm): Line on Edge.Cuts
+    @(4.0000 mm, -46.0000 mm): Circle on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(2.0000 mm, -50.0000 mm): Line on Edge.Cuts
+    @(4.0000 mm, -46.0000 mm): Circle on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(48.0000 mm, 0.0000 mm): Line on Edge.Cuts
+    @(40.3770 mm, 0.0370 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(48.0000 mm, 0.0000 mm): Line on Edge.Cuts
+    @(40.3770 mm, -6.2900 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(48.0000 mm, 0.0000 mm): Line on Edge.Cuts
+    @(22.1230 mm, -6.2900 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(50.0000 mm, -48.0000 mm): Line on Edge.Cuts
+    @(46.0000 mm, -46.0000 mm): Circle on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(50.0000 mm, -48.0000 mm): Line on Edge.Cuts
+    @(46.0000 mm, -46.0000 mm): Circle on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'CK_PTS815' does not match copy in library 'Skyhawkson_Footprints'.
+    Local override; Severity: warning
+    @(46.7500 mm, -10.0000 mm): Footprint SW1
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: warning (excluded)
+    @(9.2500 mm, -10.1500 mm): Zone [+VUSB] on B.Cu
+    @(11.1250 mm, -2.2500 mm): Pad 1 [+VUSB] of U4 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: warning (excluded)
+    @(0.0000 mm, -50.0000 mm): Zone [GND] on F.Cu
+    @(26.5875 mm, -44.4000 mm): PTH pad 15 [GND] of J4
+[starved_thermal]: Thermal relief connection to zone incomplete (board setup constraints zone fill strategy min spoke count 2; actual 1)
+    Rule: board setup constraints zone fill strategy; Severity: warning (excluded)
+    @(0.0000 mm, -50.0000 mm): Zone [GND] on F.Cu
+    @(26.5875 mm, -45.6000 mm): PTH pad 16 [GND] of J4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning (excluded)
+    @(10.1425 mm, -1.5500 mm): Circle on F.Silkscreen
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error (excluded)
+    @(11.6790 mm, -28.3817 mm): Pad 24 [+1V1] of U6 on F.Cu
+    @(12.0325 mm, -28.7353 mm): Pad 23 [+1V1] of U6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error (excluded)
+    @(31.0325 mm, -46.8000 mm): Pad 2 [/Stacking_Connector/SHLD] of J4 on F.Cu
+    @(29.1275 mm, -46.8000 mm): Pad 8 [/Stacking_Connector/SHLD] of J4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error (excluded)
+    @(25.9525 mm, -43.2000 mm): Pad 17 [/Stacking_Connector/SHLD] of J4 on F.Cu
+    @(29.1275 mm, -43.2000 mm): Pad 7 [/Stacking_Connector/SHLD] of J4 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **

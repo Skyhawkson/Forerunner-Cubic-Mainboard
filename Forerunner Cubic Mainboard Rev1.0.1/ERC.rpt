@@ -1,0 +1,39 @@
+ERC report (1/21/2024 5:43:41 PM, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /SPE-PoDL_Interface/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error (excluded)
+    @(226.0600 mm, 35.5600 mm): Symbol #PWR056 Hidden pin 1 [24V_RTN, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error (excluded)
+    @(210.8200 mm, 35.5600 mm): Symbol #PWR055 Hidden pin 1 [+24V, Power input, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; Severity: error (excluded)
+    @(38.1000 mm, 111.7600 mm): Symbol U6 Pin 2 [SDO/SPI-CFG0, Output, Line]
+    @(86.3600 mm, 58.4200 mm): Symbol J3 Pin 7 [DO, Output, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error (excluded)
+    @(38.1000 mm, 91.4400 mm): Symbol U6 Pin 35 [VDDIO, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error (excluded)
+    @(38.1000 mm, 142.2400 mm): Symbol U6 Pin EP [GND, Power input, Line]
+
+***** Sheet /USB_Input/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error (excluded)
+    @(68.5800 mm, 81.2800 mm): Symbol J1 Pin A4/B9 [VBUS, Power input, Line]
+
+***** Sheet /ESP-32_Core/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; Severity: error (excluded)
+    @(38.1000 mm, 127.0000 mm): Symbol D1 Pin 4 [VDD, Power input, Line]
+
+***** Sheet /Data_Storage/
+
+***** Sheet /Stacking_Connector/
+
+***** Sheet /SPE-PoDL_Interface/Trace Impedance Calcs/
+
+ ** ERC messages: 7  Errors 7  Warnings 0
